@@ -9,6 +9,7 @@ import Hotel from "./pages/hotel/Hotel";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Featured from "./components/featured/Featured";
+import PropertyList from "./components/propertyList/PropertyList";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/navbar" element={<Navbar/>} />
         <Route path="/header" element={<Header/>} />
         <Route path="/featured" element={<Featured/>} />
+        <Route path="/propertyLis" element={<PropertyList/>} />
       </Routes>
     </BrowserRouter>
   );
