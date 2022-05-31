@@ -12,6 +12,7 @@ import Featured from "./components/featured/Featured";
 import PropertyList from "./components/propertyList/PropertyList";
 import FeaturedProperties from "./components/featuredProperties/FeaturedProperties";
 import MailList from "./components/mailList/MailList";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/propertyLis" element={<PropertyList/>} />
         <Route path="/featuredProperties" element={<FeaturedProperties/>} />
         <Route path="/mailList" element={<MailList/>} />
+        <Route path="/footer" element={<Footer/>} />
       </Routes>
     </BrowserRouter>
   );
