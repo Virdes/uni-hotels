@@ -1,0 +1,76 @@
+import "./featuredProperties.css";
+
+const FeaturedProperties = () => {
+    return (
+        <div className="fp">
+            <div className="fpItem">
+            <img 
+            src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323428511.jpg?k=f575516d434ac1992167570533b8c85f9265454e270d2cea88f3d72691874565&o=&hp=1" 
+            alt="" 
+            className="fpImg" 
+            />
+
+            <span className="fpName">Aparthotel Stare Miasto</span>
+            <span className="fpCity">Madrid</span>
+            <span className="fpPrice">Starting from $120</span>
+            <div className="fpRating">
+                <button>8.9</button>
+                <span>Excellent</span>
+            </div>
+         </div>
+        
+        <div className="fpItem">
+            <img 
+            src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323428511.jpg?k=f575516d434ac1992167570533b8c85f9265454e270d2cea88f3d72691874565&o=&hp=1" 
+            alt="" 
+            className="fpImg" />
+
+            <span className="fpName">Aparthotel Stare Miasto</span>
+            <span className="fpCity">Madrid</span>
+            <span className="fpPrice">Starting from $120</span>
+            <div className="fpRating">
+                <button>8.9</button>
+                <span>Excellent</span>
+            </div>
+
+        </div>
+
+        <div className="fpItem">
+            <img 
+            src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323428511.jpg?k=f575516d434ac1992167570533b8c85f9265454e270d2cea88f3d72691874565&o=&hp=1" 
+            alt="" 
+            className="fpImg" />
+
+            <span className="fpName">Aparthotel Stare Miasto</span>
+            <span className="fpCity">Madrid</span>
+            <span className="fpPrice">Starting from $120</span>
+            <div className="fpRating">
+                <button>8.9</button>
+                <span>Excellent</span>
+            </div>
+
+        </div>
+        
+        <div className="fpItem">
+            <img 
+            src="https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/323428511.jpg?k=f575516d434ac1992167570533b8c85f9265454e270d2cea88f3d72691874565&o=&hp=1" 
+            alt="" 
+            className="fpImg" />
+
+            <span className="fpName">Aparthotel Stare Miasto</span>
+            <span className="fpCity">Madrid</span>
+            <span className="fpPrice">Starting from $120</span>
+            <div className="fpRating">
+                <button>8.9</button>
+                <span>Excellent</span>
+            </div>
+
+        </div>
+
+     </div>
+
+        
+    )
+}
+
+export default FeaturedProperties

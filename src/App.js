@@ -10,6 +10,8 @@ import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Featured from "./components/featured/Featured";
 import PropertyList from "./components/propertyList/PropertyList";
+import FeaturedProperties from "./components/featuredProperties/FeaturedProperties";
+import MailList from "./components/mailList/MailList";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/header" element={<Header/>} />
         <Route path="/featured" element={<Featured/>} />
         <Route path="/propertyLis" element={<PropertyList/>} />
+        <Route path="/featuredProperties" element={<FeaturedProperties/>} />
+        <Route path="/mailList" element={<MailList/>} />
       </Routes>
     </BrowserRouter>
   );
