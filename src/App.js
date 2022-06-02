@@ -13,6 +13,7 @@ import PropertyList from "./components/propertyList/PropertyList";
 import FeaturedProperties from "./components/featuredProperties/FeaturedProperties";
 import MailList from "./components/mailList/MailList";
 import Footer from "./components/footer/Footer";
+import SearchItem from "./components/searchItem/SearchItem";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/featuredProperties" element={<FeaturedProperties/>} />
         <Route path="/mailList" element={<MailList/>} />
         <Route path="/footer" element={<Footer/>} />
+        <Route path="/searchItem" element={<SearchItem/>} />
       </Routes>
     </BrowserRouter>
   );
