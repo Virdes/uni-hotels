@@ -1,6 +1,6 @@
 # Uni.hotels
 
-unihotels é um site de hospedagem de hoteis desenvolvido com ReactJS.
+unihotels é um site de hospedagem de hotéis desenvolvido com ReactJS.
 
 ![image](https://user-images.githubusercontent.com/49965191/171780622-4d09069e-1596-4679-a2ba-1927c574ad43.png)
 
